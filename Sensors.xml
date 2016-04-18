@@ -78,19 +78,19 @@
                                               <block type="controls_if" id="22" inline="false">
                                                 <mutation elseif="1" else="1"></mutation>
                                                 <value name="IF0">
-                                                  <block type="logic_compare" id="32" inline="true">
+                                                  <block type="logic_compare" id="23" inline="true">
                                                     <field name="OP">EQ</field>
                                                   </block>
                                                 </value>
                                                 <value name="IF1">
-                                                  <block type="logic_compare" id="33" inline="true">
+                                                  <block type="logic_compare" id="24" inline="true">
                                                     <field name="OP">EQ</field>
                                                   </block>
                                                 </value>
                                                 <next>
-                                                  <block type="robot_delay" id="23" inline="true">
+                                                  <block type="robot_delay" id="25" inline="true">
                                                     <value name="DELAY">
-                                                      <block type="math_number" id="24">
+                                                      <block type="math_number" id="26">
                                                         <field name="NUM">100</field>
                                                       </block>
                                                     </value>
@@ -119,7 +119,7 @@
       </block>
     </statement>
     <next>
-      <block type="movement_stop" id="25"></block>
+      <block type="movement_stop" id="27"></block>
     </next>
   </block>
 </xml>
